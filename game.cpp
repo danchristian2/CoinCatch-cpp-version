@@ -263,9 +263,6 @@ void drawGame() {
 
   lcd.print(lives);
 }
-
-
-// ================= GAME OVER =================
 void showGameOver() {
 
   lcd.clear();
