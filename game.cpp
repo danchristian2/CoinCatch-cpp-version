@@ -234,8 +234,6 @@ void drawGame() {
 
       lcd.print("|");
     }
-
-
     // Bottom pipe
     if (gapRow != 1) {
 
@@ -275,7 +273,6 @@ void showGameOver() {
   lcd.print("Score:");
 
   lcd.print(score);
-
   delay(2000);
 
   lcd.clear();
